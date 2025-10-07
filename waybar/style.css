@@ -1,0 +1,125 @@
+* {
+    color: #ffffff;
+    font-family: "JetBrains Mono Nerd Font", "Font Awesome";
+    font-size: 14px;
+}
+
+#waybar {
+    background-color: rgba(0, 0, 0, 0.449);
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#modules-left,
+#modules-right,
+#modules-center {
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.601);
+    margin: 3px;
+    border-radius: 12px;
+
+}
+
+#workspaces button {
+    padding: 0 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin: 2px;
+    animation: gradient_f 20s linear infinite;
+    transition: all 0.5s cubic-bezier(0.5, 0, 0.5, 1.5);
+}
+
+#workspaces {
+    padding: 0 5px;
+    background-color: rgba(0, 0, 0, 0.601);
+    border-radius: 12px;
+    margin: 3px;
+}
+
+#workspaces button.active {
+    background: rgba(255, 255, 255, 0.44);
+    animation: gradient_f 20s linear infinite;
+    border-radius: 10px;
+    transition: all 0.3s cubic-bezier(0.5, 0, 0.5, 1.5);
+}
+#pulseaudio {
+    background-color: rgba(0, 0, 0, 0.601);
+    border-radius: 12px;
+    padding: 0 10px;
+    margin: 3px;
+}
+#pulseaudio-slider {
+    padding: 0 10px;
+    border-radius: 20px;
+    background-color:  rgba(0, 0, 0, 0.601);
+    margin: 6px;
+}
+#pulseaudio-slider slider {
+    min-height: 8px;
+    min-width: 10px;
+    opacity: 0;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.601);
+}
+#pulseaudio-slider trough {
+    min-height: 8px;
+    min-width: 50px;
+    border-radius: 20px;
+    background-color:  rgba(0, 0, 0, 0.601);
+}
+#pulseaudio-slider highlight {
+    min-width: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.601);
+}
+#backlight {
+    background-color: rgba(0, 0, 0, 0.601);
+    border-radius: 12px;
+    padding: 0 10px;
+    margin: 3px;
+}
+#backlight-slider {
+    padding: 0 8px;
+    border-radius: 20px;
+    background-color:  rgba(0, 0, 0, 0.601);
+    margin: 6px;
+}
+#backlight-slider slider {
+    min-height: 8px;
+    min-width: 10px;
+    opacity: 0;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.601);
+}
+#backlight-slider trough {
+    min-height: 8px;
+    min-width: 50px;
+    border-radius: 20px;
+    background-color:  rgba(0, 0, 0, 0.601);
+}
+#backlight-slider highlight {
+    min-width: 8px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.601);
+}
+
+#clock,
+#cpu,
+#disk,
+#memory,
+#temperature,
+#custom-power,
+#custom-swaync,
+#tray,
+#battery,
+#group-performance {
+    padding: 0 10px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.601);
+    margin: 3px;
+    border-radius: 12px;
+}
+
+#battery.charging {
+    background-color: #26a69a;
+}
